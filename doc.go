@@ -1,6 +1,6 @@
-// Copyright 2017 The go-ego Project Developers. See the COPYRIGHT
+// Copyright 2017 The yanjingang Project Developers. See the COPYRIGHT
 // file at the top-level directory of this distribution and at
-// https://github.com/go-ego/ego/blob/master/LICENSE
+// https://github.com/yanjingang/ego/blob/master/LICENSE
 //
 // Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
 // http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
@@ -13,7 +13,7 @@
 Package gpy : Chinese Pinyin conversion tool; 汉语拼音转换工具.
 
 Installation:
-	go get -u github.com/go-ego/gpy
+	go get -u github.com/yanjingang/gpy
 
 Usage :
 
@@ -22,7 +22,7 @@ Usage :
 	import (
 		"fmt"
 
-		"github.com/go-ego/gpy"
+		"github.com/yanjingang/gpy"
 	)
 
 	func main() {

@@ -3,7 +3,7 @@ package gpy_test
 import (
 	"fmt"
 
-	"github.com/go-ego/gpy"
+	"github.com/yanjingang/gpy"
 )
 
 var hans = "中国人"
