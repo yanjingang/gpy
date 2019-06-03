@@ -1,26 +1,24 @@
 # gpy
 
-[![CircleCI Status](https://circleci.com/gh/go-ego/gpy.svg?style=shield)](https://circleci.com/gh/go-ego/gpy)
-[![Build Status](https://travis-ci.org/go-ego/gpy.svg?branch=master)](https://travis-ci.org/go-ego/gpy)<!-- [![Coverage Status](https://coveralls.io/repos/github.com/go-ego/gpy/badge.svg?branch=master)](https://coveralls.io/r/github.com/go-ego/gpy?branch=master) -->
-[![codecov](https://codecov.io/gh/go-ego/gpy/branch/master/graph/badge.svg)](https://codecov.io/gh/go-ego/gpy)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-ego/gpy)](https://goreportcard.com/report/github.com/go-ego/gpy)
-[![GoDoc](https://godoc.org/github.com/go-ego/gpy?status.svg)](https://godoc.org/github.com/go-ego/gpy)
+[![CircleCI Status](https://circleci.com/gh/yanjingang/gpy.svg?style=shield)](https://circleci.com/gh/yanjingang/gpy)
+[![Build Status](https://travis-ci.org/yanjingang/gpy.svg?branch=master)](https://travis-ci.org/yanjingang/gpy)<!-- [![Coverage Status](https://coveralls.io/repos/gtihub.com/yanjingang/gpy/badge.svg?branch=master)](https://coveralls.io/r/github.com/yanjingang/gpy?branch=master) -->
+[![codecov](https://codecov.io/gh/yanjingang/gpy/branch/master/graph/badge.svg)](https://codecov.io/gh/yanjingang/gpy)
+[![Go Report Card](https://goreportcard.com/badge/github.com/yanjingang/gpy)](https://goreportcard.com/report/github.com/yanjingang/gpy)
+[![GoDoc](https://godoc.org/github.com/yanjingang/gpy?status.svg)](https://godoc.org/github.com/yanjingang/gpy)
 
 汉语拼音转换工具 Go 版。
-
-[简体中文](https://github.com/go-ego/gpy/blob/master/README_zh.md)
 
 
 ## Installation
 
 ```
-go get -u github.com/go-ego/gpy
+go get -u github.com/yanjingang/gpy
 ```
 
 ### install CLI tool:
 
 ```
-go get -u github.com/go-ego/gpy/pinyin
+go get -u github.com/yanjingang/gpy/pinyin
 $ gpy 中国人
 zhōng guó rén
 ```
@@ -29,7 +27,7 @@ zhōng guó rén
 ## Documentation
 
 API documentation can be found here:
-[godoc](https://godoc.org/github.com/go-ego/gpy)
+[godoc](https://godoc.org/github.com/yanjingang/gpy)
 
 
 ## Usage
@@ -40,7 +38,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-ego/gpy"
+	"github.com/yanjingang/gpy"
 )
 
 func main() {
